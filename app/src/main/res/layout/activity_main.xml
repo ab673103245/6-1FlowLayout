@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="qianfeng.a6_1flowlayout.MainActivity">
+
+    <qianfeng.flowlayout.FlowLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="fdsfsdf"
+            android:background="@color/colorAccent"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="40dp"
+            android:layout_height="48dp" />
+        <TextView
+            android:text="fdsdsd121212sdf"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="121321321321312321"
+            android:layout_marginLeft="10dp"
+            android:background="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="fd13123214574564sfdf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="fds432432545fsdf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="fdsfsdf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="fdsfsdf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </qianfeng.flowlayout.FlowLayout>
+
+</RelativeLayout>
